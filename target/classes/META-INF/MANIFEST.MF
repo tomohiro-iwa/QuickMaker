@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Astah-Edition: all
+Astah-Version: 6.7
+Bnd-LastModified: 1557410478257
+Build-Jdk: 1.8.0_191
+Built-By: tomo
+Bundle-Activator: QuickMaker.Activator
+Bundle-Description: %bundle.description
+Bundle-ManifestVersion: 2
+Bundle-Name: %bundle.name
+Bundle-SymbolicName: iwa.QuickMaker; singleton:=true
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Embed-Dependency: *;scope=compile|runtime;type=!pom
+Embed-Transitive: true
+Export-Package: QuickMaker;version="1.0.0.SNAPSHOT";uses:="com.change_vi
+ sion.jude.api.inf.ui,javax.swing,org.osgi.framework"
+Import-Package: com.change_vision.jude.api.inf;resolution:=optional,com.
+ change_vision.jude.api.inf.editor;resolution:=optional,com.change_visio
+ n.jude.api.inf.model;resolution:=optional,com.change_vision.jude.api.in
+ f.presentation;resolution:=optional,com.change_vision.jude.api.inf.proj
+ ect;resolution:=optional,com.change_vision.jude.api.inf.ui;resolution:=
+ optional,javax.swing;resolution:=optional,org.osgi.framework;resolution
+ :=optional;version="[1.5,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.3.0.201609221906

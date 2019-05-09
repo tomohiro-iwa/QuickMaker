@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+   <extension point="com.change_vision.astah.ui.actionSets">
+      <actionSet
+            label="%action_set_label"
+            visible="true"
+            id="iwa.QuickMaker.actionSet">
+         <menu
+               id="QuickMaker"
+               label="%menu_group"
+               path="tool/QuickMaker">
+         </menu>
+         <action
+			   label="%menu_label"
+               icon="icons/sample.gif"
+               class="QuickMaker.TemplateAction"
+               tooltip="%menu_tooltip"
+               menubarPath="tool/QuickMaker/"
+               id="QuickMaker">
+         </action>
+     </actionSet>
+   </extension>
+</plugin>
